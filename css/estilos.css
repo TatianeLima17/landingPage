@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+html{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url("/img/pexels-freestocks-76942.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba( 255, 254, 254, 0.5);
+    height: 100px;
+
+}
+
+.logotipo{
+    width: 160px;
+    padding: 10px;
+    align-content: center;
+}
+
+.menu{
+    display: flex;
+    gap: 180px;
+}
+
+.menuItem{
+    color: black;
+    font-size: 18px ;
+    font-weight: 300;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.menuItem:hover{
+    cursor: pointer;
+   
+}
+
+#acesse , #inscreva{
+    background-color: rgba(164, 161, 161, 0.5);
+    border-radius: 10px;
+}
+
+#acesse:hover , #inscreva:hover{
+    background-color: rgba(202, 3, 3, 0.6)
+    
+}
+.conteudo{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+
+}
+
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#titulo{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#subtitulo{
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.botao{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(202, 3, 3, 0.6);
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: white;
+    font-size: 18px;
+    color: white;
+
+}
+
+.botao:hover{
+    background-color: rgba(164, 161, 161, 0.5);
+    color: black;
+    border-color: black;
+
+}
+
+.rodape{
+    display: flex;
+    text-align: center;
+    bottom: 0;
+    padding: 10px;
+}
+
+.rodape p{
+    display: flex;
+    text-align: center;
+}
